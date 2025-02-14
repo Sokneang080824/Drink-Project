@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+.purpose-website{
+    font-family: "Freehand", serif;
+    line-height: 50px;
+}
+:root{
+    --primary-color: #5D2312;
+    --secondary-color: white;
+}
+nav ul{
+    width: 100%;
+}
+.se-header{
+    background-color: var(--primary-color) !important;
+    color: white;
+}
+.btn-detail{
+    background-color: var(--primary-color) !important;
+    border: white solid 1px !important;
+    color: white;
+}
+
+.nav_btn .btn:hover{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* .card-img-container{
+    height: 70%;
+    width: 60%;
+}
+.card-body{
+    height: 20% ;
+} */
+.btn:focus {
+    background-color: var(--primary-color); 
+  }
+.latte{
+    font-family: "Playwrite IN", serif;
+}
+.btn-buy{
+    background-color: var(--primary-color) !important;
+}
+.btn-detail{
+    visibility: hidden;
+    transition: 1s;
+}
+.card-dark:hover .btn-detail{
+    visibility:visible;
+    transition: 1s;
+}
+img{
+    transition: 1s;
+}
+.card-dark:hover img{
+    transform: scale(1.2);
+    transition: 1s;
+}
